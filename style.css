@@ -20,8 +20,8 @@ ul{
 
 li{
     color: black;
-    border: bottom 11px;
-    padding: 10px 0;
+    border: bottom 10px;
+    padding: 5px 0;
     margin-left: 2em;
    }
 
@@ -31,5 +31,4 @@ img.logoright{
     max-width: 10rem;
     max-height: 10rem;
     margin-left: 70rem;
-
     }
