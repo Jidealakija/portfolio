@@ -30,5 +30,10 @@ img.logoright{
     border-radius: 100px;
     max-width: 10rem;
     max-height: 10rem;
-    margin-left: 40rem;
+    margin-left: 80rem;
     }
+
+h1{
+    color: black;
+    text-align: center;
+}    
