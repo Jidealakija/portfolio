@@ -5,10 +5,11 @@ ul,body{
 body{
     background-color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 nav{
+    top: 0;
     background-color:white;
     text-transform: capitalize;
     border-top: black;
@@ -33,7 +34,7 @@ ul{
 li{
     color: black;
     border: bottom 2px;
-    padding: 2px 0;
+    padding: 0px 0;
     margin-left: 2em;
    }
 
