@@ -78,6 +78,7 @@ img.jide{
     border-radius: 50%;
     display:block;  
     margin: auto;
+    z-index: -1;
 }
 
 h2{
