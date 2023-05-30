@@ -24,7 +24,7 @@ nav{
 
 ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row, right;
     font-size: 2rem;
     align-items:center;
    justify-content:space-around;
@@ -35,7 +35,7 @@ ul{
 
 li{
     color: black;
-    border-bottom: 2px;
+    border: 10px solid rgba(255, 0, 0, 0.406);
    }
 
 li a{
@@ -96,7 +96,7 @@ section{
 
 article{
     background: white;
-    border: 15px solid crimson;
+    border: 15px solid rgba(255, 0, 0, 0.406);
     text-align: center;
     justify-content: center;
 }
