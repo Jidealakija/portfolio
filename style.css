@@ -1,6 +1,18 @@
+ul,body{
+    margin: 1px;
+}
+
+body{
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
 nav{
-    background-color: white;
+    background-color:white;
     text-transform: capitalize;
+    border-top: black;
+    border-bottom: black;
     min-height: 10vh;
     color: antiquewhite;
     position: fixed;
@@ -12,7 +24,7 @@ nav{
 ul{
     display: flex;
     flex-direction: row;
-    font-size: 2em;
+    font-size: 2rem;
     align-items:center;
    justify-content:left;
    list-style: none;
@@ -20,20 +32,62 @@ ul{
 
 li{
     color: black;
-    border: bottom 10px;
-    padding: 5px 0;
+    border: bottom 2px;
+    padding: 2px 0;
     margin-left: 2em;
    }
 
 img.logoright{
     display:block;
-    border-radius: 100px;
-    max-width: 10rem;
-    max-height: 10rem;
-    margin-left: 80rem;
+    border-radius: 10rem;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 75rem;
     }
 
+main{
+    color: white;
+    position: relative;
+    top: 300px;
+    z-index: -1;
+    }    
+
 h1{
-    color: black;
+    color: white;
     text-align: center;
-}    
+}  
+
+p{
+    color: white;
+    text-align: center;
+}
+
+img.jide{
+    max-width: 550px;
+    max-height: 550px;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-radius: 50%;
+    display:block;  
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-areas: "b" "a";
+    gap: 30px;
+}
+
+article{
+    background: white;
+    border: 15px solid crimson;
+    text-align: center;
+    justify-content: center;
+}
