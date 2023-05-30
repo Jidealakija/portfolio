@@ -53,10 +53,11 @@ li a{
     } */
 
 main{
+    padding: 50px 0;
+    margin-top: 4rem;
     color: white;
     position: relative;
-    top: 300px;
-    z-index: -1;
+    top: 1em;
     }    
 
 h1{
